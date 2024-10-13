@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color:#1f1e20 ;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+    .cadastro {
+        display: flex;
+        flex-direction: column; /* Coloca os elementos um abaixo do outro */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .email input{
+        width: 326px;
+        height: 32px;
+        margin: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 7px;
+        background-color: white;
+
+    }
+
+    .senha input{
+        width: 326px;
+        height: 32px;
+        padding: 10px;
+        border: none;
+        border-radius: 7px;
+        background-color: white;
+
+    }
+
+
+.bntblue{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+     background-color: #001737;
+    color: white;
+    padding: 10px 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 3vh; 
+}
+
+.links a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline; 
+}
