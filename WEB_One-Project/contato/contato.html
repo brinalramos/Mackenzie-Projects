@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contato.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/e9caf0ca0e.js" crossorigin="anonymous"></script>
+
+    <title>Contato</title>
+</head>
+<body>
+    
+    <header id="header">
+        <div class="container-header">
+            <div class="logo">
+              <a href="index.html"> <img src="img/logo-web__2_-removebg-preview.png"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <a href="../homepage/homepage.html">Home</a>
+                    <a href="../sobre/sobre.html">Sobre</a>
+                    <a href="../contato/contato.html"><button>Contato</button></a>
+                </nav>
+            </div>
+            <div class="sociais">
+               <a href="#rodape"> <button><i class="fa-brands fa-instagram"></i></button></a>
+                <a href="#rodape"><button><i class="fa-brands fa-twitter"></i></button></a>
+                <a href="#rodape"><button><i class="fa-brands fa-linkedin"></i></button></a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h2>CONTATO</h2>
+        <p class="text">Fale com a gente</p>
+        <form action="" method="post">
+            <label>Nome</label>
+            <input type="text" name="name" placeholder="Digite seu nome" autocomplete="off" required>
+
+            <label>E-mail</label>
+            <input type="email" name="email" placeholder="Digite seu E-mail" autocomplete="off" required>
+
+            <label>Mensagem</label>
+            <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+
+        
+        </form>
+    </section>
+    <hr>
+    <footer id="rodape" class="rodape">
+        <script>
+            var nome = "Sabrina Ramos";
+            var ano = "2024";
+            var twitter = "@projectMack";
+            var face = "@projectMack";
+            var inst = "@projecMack";
+            var linked = "@projectMack";
+            var ger = "Feminino";
+            var local = "Alphaville";
+        
+        
+            document.write("<i class='bx bxs-user-circle'></i> " + " Nome: " + nome + "<br>");
+                document.write("<i class='bx bxs-calendar' ></i> " + " Ano - " + ano + "<br>");
+                document.write("<i class='bx bxl-twitter' ></i> " + " Twitter: " + twitter + "<br>");
+                document.write("<i class='bx bxl-facebook-circle'></i>" + " Facebook: " + face + "<br>");
+                document.write("<i class='bx bxl-instagram-alt'></i>" + " Instagram: " + inst + "<br>");
+                document.write("<i class='bx bxl-linkedin-square' ></i> LinkedIn: " + linked + "<br>") ;
+                document.write("<i class='bx bx-male-female'></i>" + " Sexo:" + ger + "<br>");
+                document.write("<i class='bx bxs-map'></i>" + " Polo: " + local + "<br>");
+                </script>        <!--inseridas aqui via JavaScript -->
+        </footer>
+
+</body>
+</html>

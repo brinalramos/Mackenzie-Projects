@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Pacifico&family=Sedan+SC&family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web";
+}
+
+html{
+    height: 100vh;
+    background-image: url(img/fund3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-header{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    padding: 2px 0;
+}
+
+.logo, .sociais{
+    width: 25%;
+}
+
+.logo img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 50%;
+    text-align: center;
+}
+
+.menu nav a{
+    color: white;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 20px;
+    position: relative;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #640a58, #ff0077);
+    position: absolute;
+    top: 33px;
+    left: 0;
+    transition: width 0.4s;
+}
+
+.menu nav a:hover::after{
+    width: 40px;
+}
+
+.sociais button{
+    width: 60px;
+    height: 35px;
+    background-image: linear-gradient(45deg, #640a58, #ff0077);
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.sociais button:hover{
+    background-image: linear-gradient(45deg, #da7de2, #197bbd);
+    cursor: pointer;
+}
+
+.sociais button i{
+    font-size: 25px;
+    color: white;
+}
+
+.menu button {
+    background-image: linear-gradient(45deg, #a80392, #6904bb);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    border-radius: 4px;
+    padding: 7px 7px;
+    font-size: 15px;
+
+}
+
+.menu button:hover {
+    background-image: linear-gradient(45deg, #da7de2, #197bbd);
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding: 20px 45px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: #13073d;
+}
+
+section h2{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16px;
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus{
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: rgb(255, 255, 255);
+    transition: all 1s;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form button:hover{
+    background: rgb(174, 155, 209);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: none;
+}
+
+.text{
+    font-size: 30px;
+    color: rgb(162, 195, 233);
+    margin-bottom: 2px;
+}
+
+.rodape {
+    background-color: #000000; /* Cor de fundo cinza */
+    padding: 10px 20px; /* Espaçamento interno */
+    color: #ffffff;
+    font-size: 13px;
+    width: 100%; /* Largura total */
+    bottom: 0; /* Alinha o rodapé na parte inferior */
+    text-align: end; /* Centraliza o texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+
+  .rodape i {
+    color: #661366;
+}
